@@ -10,7 +10,8 @@ ul {
 
 body {
     font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
+    font-size: 16px;
+    line-height: 1.5em;
     background-color: #f5f7fa;
 }
 
@@ -35,8 +36,8 @@ body {
 
 .personal {
     padding: 1em;
-    background-color: #1e2939;
-    color: #fff;
+    background-color: #2d2d2d;
+    color: #c9c9c9;
 }
 
 .personal__photo {
@@ -46,6 +47,42 @@ body {
 .personal__section {
     padding: 1em;
 }
+
+.personal__section:first-of-type {
+    margin-top: 2em;
+}
+
+.personal__section::after {
+    content: '';
+    display: block;
+    margin-top: 1em;
+    width: 100%;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.personal__title {
+    margin-bottom: 1em;
+    color: #6eb9a0;
+}
+
+.personal__list {
+    margin-left: 1em;
+}
+
+.personal__list > li {
+    margin-bottom: .8em;
+}
+
+.personal__link {
+    color: #6eb9a0;
+}
+
+.education-title {
+    color: #dadada;
+}
+
+
+
 
 .header {
     width: 100%;
