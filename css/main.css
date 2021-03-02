@@ -81,8 +81,6 @@ body {
     color: #dadada;
 }
 
-
-
 .header {
     display: flex;
     flex-direction: column;
@@ -116,16 +114,6 @@ body {
 
 .main__section {
     margin-bottom: 2em;
-}
-
-.main__section::after {
-    /* content: ''; */
-    display: block;
-    width: 70%;
-    margin-top: 1em;
-    margin-left: auto;
-    margin-right: auto;
-    border-bottom: 1px solid #2d2d2d;
 }
 
 .main__section-title {
