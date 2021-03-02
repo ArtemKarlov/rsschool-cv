@@ -65,60 +65,72 @@
             </header>
 
             <main class="main">
-                <section class="main__section cv-unit statement">
-                    <h3 class="cv-unit__title">Statement</h3>
-                    I am considering changing my profession towards front-end development. I have no real work experience yet and the code examples are limited to assignments from online courses. Therefore, I am ready to complete the test task to show my ability for self-education and practical application of skills.
+                <section class="main__section">
+                    <h3 class="main__section-title">Statement</h3>
+                    <p class="main__section-content">
+                        I am considering changing my profession towards front-end development. I have no real work experience yet and the code examples are limited to assignments from online courses. Therefore, I am ready to complete the test task to show my ability for self-education and practical application of skills.
+                    </p>
                 </section>
 
-                <section class="main__section cv-unit skills">
-                    <h3 class="cv-unit__title">Skills</h3>
+                <section class="main__section">
+                    <h3 class="main__section-title">Skills</h3>
 
-                    <article class="skills__item skill">
+                    <article class="skill">
                         <h4 class="skill__title">Git</h4>
-                        <p>I know the Git commands at a basic level. I understand the difference between merge and rebase. In the process of work I use the "one commit, one task" approach. I can work with pull requests.</p>
+                        <p class="skill__description">I know the Git commands at a basic level. I understand the difference between merge and rebase. In the process of work I use the "one commit, one task" approach. I can work with pull requests.</p>
                     </article>
 
-                    <article class="skills__item skill">
+                    <article class="skill">
                         <h4 class="skill__title">HTML</h4>
-                        <p>I know at a basic level how to optimize loading CSS styles and JS scripts.  I am able to make up interfaces taking into account the built-in capabilities of the web platform:
-                            * use special tags for page layout;
-                            * pay attention to heading levels;
-                            * checking access to all interactive elements using the keyboard.</p>
+                        <p class="skill__description">I know at a basic level how to optimize loading CSS styles and JS scripts.  I am able to make up interfaces taking into account the built-in capabilities of the web platform:</p>
+                        <ul class="skill_list">
+                            <li>use special tags for page layout;</li>
+                            <li>pay attention to heading levels;</li>
+                            <li>checking access to all interactive elements using the keyboard.</li>
+                        </ul>
                     </article>
 
-                    <article class="skills__item skill">
+                    <article class="skill">
                         <h4 class="skill__title">CSS</h4>
-                        <p>I use basic **BEM** principles when styling the page. I can create a responsive layout using **media expressions**. Most often, I use **flexbox** to position elements relative to each other. Have the basic knowledge to create transitions and animations. I know the CSS Frameworks: **Bootstrap**, **TailwindCSS** at a basic level.</p>
+                        <p class="skill__description">I use basic <strong>BEM</strong> principles when styling the page. I can create a responsive layout using <strong>media expressions</strong>. Most often, I use <strong>flexbox</strong> to position elements relative to each other. Have the basic knowledge to create transitions and animations. I know the CSS Frameworks: <strong>Bootstrap</strong>, <strong>TailwindCSS</strong> at a basic level.</p>
                     </article>
 
-                    <article class="skills__item skill">
+                    <article class="skill">
                         <h4 class="skill__title">JavaScript</h4>
-                        <p>I know basic JS primitives, understand how to work with **Promise** and **async / await** syntax. I understand the difference between arrow functions and classical functions. I know how to restrict access to functions and variables using **closures**. When working with data, I try to use the modern capabilities of the language.</p>
+                        <p class="skill__description">I know basic JS primitives, understand how to work with <strong>Promise</strong> and <strong>async / await</strong> syntax. I understand the difference between arrow functions and classical functions. I know how to restrict access to functions and variables using <strong>closures</strong>. When working with data, I try to use the modern capabilities of the language.</p>
                     </article>
 
-                    <article class="skills__item skill">
+                    <article class="skill">
                         <h4 class="skill__title">OOP</h4>
-                        <p>I know the basic principles of object-oriented programming.</p>
+                        <p class="skill__description">I know the basic principles of object-oriented programming.</p>
                     </article>
 
-                    <article class="skills__item skill">
+                    <article class="skill">
                         <h4 class="skill__title">React</h4>
-                        <p>I have a basic understanding of how React works. I know how to create applications using **Create React App**. I can:
-                            * Create separate pages using **React Router**;
-                            * Manage application state using **React Hooks**;
-                            * Isolate component styles with **CSS Modules** and **Styled Components**.
-                            Have basic knowledge of **redux** and **mobx**, but haven't applied it in practice yet.</p>
+                        <p class="skill__description">I have a basic understanding of how React works. I know how to create applications using Create React App. I can:</p>
+                        <ul class="skill_list">
+                            <li>Create separate pages using <strong>React Router</strong>;</li>
+                            <li> Manage application state using <strong>React Hooks</strong>;</li>
+                            <li>Isolate component styles with <strong>CSS Modules</strong> and <strong>Styled Components</strong>.</li>
+                        </ul>
+                        <p>Have basic knowledge of <strong>redux</strong> and <strong>mobx</strong>, but haven't applied it in practice yet.</p>
                     </article>
 
-                    <article class="skills__item skill">
+                    <article class="skill">
                         <h4 class="skill__title">Development environment</h4>
-                        <p>I use the **Visual Studio Code** editor with the **Prettier** plugin for easy code formatting. Familiar with **ESLint**.</p>
+                        <p class="skill__description">I use the <strong>Visual Studio Code</strong> editor with the <strong>Prettier</strong> plugin for easy code formatting. Familiar with <strong>ESLint</strong>.</p>
                     </article>                    
                 </section>
 
-                <section class="main__section cv-unit code-examples">
-                    <h3 class="cv-unit__title">Code examples</h3>
-                    <article>
+                <section class="main__section">
+                    <h3 class="main__section-title">Code examples</h3>
+                    <p class="main__section-content">Example from Aviasales test poject: 
+                        [GitHub repository]
+                        (https://github.com/ArtemKarlov/Aviasales_test) 
+                        ([gh-pages]
+                        (https://artemkarlov.github.io/Aviasales_test/)):
+                    </p>
+                    <article class="code-example">
                         <h4>HTML</h4>
                         <pre>
                             <code class="language-html">
@@ -157,7 +169,7 @@
                             </code>
                         </pre>
                     </article>
-                    <article>
+                    <article class="code-example">
                         <h4>CSS</h4>
                         <pre>
                             <code class="language-css">
@@ -220,7 +232,7 @@ background-position: center;
                             </code>
                         </pre>
                     </article>
-                    <article>
+                    <article class="code-example">
                         <h4>JavaScript</h4>
                         <pre>
                             <code class="language-javascript">
@@ -247,7 +259,7 @@ return result;
                 </section>
 
                 <section class="main__section cv-unit experience">
-                    <h3 class="cv-unit__title">Experience</h3>
+                    <h3 class="main__section-title">Experience</h3>
                     <article>
                         <h4>Student of front-end development courses</h4>
                         <p>2020, <em>GeekBrains</em></p>
@@ -283,8 +295,8 @@ return result;
                     </article>
                 </section>
 
-                <section class="main__section cv-unit languages">
-                    <h3 class="cv-unit__title">Languages</h3>
+                <section class="main__section">
+                    <h3 class="main__section-title">Languages</h3>
                     <ul class="cv-unit__list">
                         <li>Russian - native;</li>
                         <li>English - A2, elementary. I read technical documentation, periodically using Google Translate.</li>

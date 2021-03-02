@@ -110,6 +110,7 @@ body {
 
 .main {
     padding: 1em;
+    background-color: #ececec;
 }
 
 .main__section {
@@ -117,11 +118,38 @@ body {
 }
 
 .main__section::after {
-    content: '';
+    /* content: ''; */
     display: block;
     width: 70%;
     margin-top: 1em;
     margin-left: auto;
     margin-right: auto;
     border-bottom: 1px solid #2d2d2d;
+}
+
+.main__section-title {
+    margin-top: 1em;
+    margin-bottom: .5em;
+    font-size: 2em;
+}
+
+.main__section-content {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.skill,
+.code-example {
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.skill__title {
+    font-size: 1em;
+}
+
+.skill__description {
+    padding-left: 1em;
+    padding-right: 1em;
 }
