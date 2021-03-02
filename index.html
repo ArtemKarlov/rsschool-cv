@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/prism.css" rel="stylesheet" />
     <title>Artem Karlov</title>
 </head>
 <body>
@@ -105,7 +106,7 @@
                     <article>
                         <h4>HTML</h4>
                         <pre>
-                            <code class="prettyprint lang-html">
+                            <code class="language-html">
 &lt;!-- tickets --&gt;
 &lt;section id=&quot;tickets-section&quot; class=&quot;tickets&quot; data-item=&quot;tickets-section&quot;&gt;
     &lt;template id=&quot;ticket-template&quot; data-item=&quot;ticket-template&quot;&gt;
@@ -113,7 +114,8 @@
         &lt;header class=&quot;ticket__header&quot;&gt;
         &lt;span class=&quot;ticket__price&quot; data-item=&quot;ticket-price&quot;&gt;13&amp;nbsp;400&amp;nbsp;&amp;#8381;&lt;/span&gt;
         &lt;div class=&quot;ticket__logo&quot;&gt;
-            &lt;img src=&quot;img/S7 Logo.png&quot; alt=&quot;carrier-logo&quot; data-item=&quot;carrier-logo&quot; class=&quot;carrier-logo&quot;/&gt;
+            &lt;img src=&quot;img/S7 Logo.png&quot; alt=&quot;carrier-logo&quot; 
+                data-item=&quot;carrier-logo&quot; class=&quot;carrier-logo&quot;/&gt;
         &lt;/div&gt;
         &lt;/header&gt;
         &lt;template id=&quot;route-template&quot; data-item=&quot;route-template&quot;&gt;
@@ -143,7 +145,7 @@
                     <article>
                         <h4>CSS</h4>
                         <pre>
-                            <code class="prettyprint lang-css">
+                            <code class="language-css">
 /* скрываем дефолтные инпуты */
 .input-default {
 position: absolute;
@@ -206,7 +208,7 @@ background-position: center;
                     <article>
                         <h4>JavaScript</h4>
                         <pre>
-                            <code class="prettyprint lang-js">
+                            <code class="language-javascript">
 // выбираем билеты по количеству пересадок
 function getFilteredTickets(ticketsArray, ...filters) {
 if (filters.includes(FILTER_OPTION_ALL)) {
@@ -276,6 +278,7 @@ return result;
         </main>
         <footer class="footer"></footer>
     </div>
-    <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>    
+    
+    <script src="js/prism.js"></script>
 </body>
 </html>
