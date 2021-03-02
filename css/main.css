@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+ul {
+    list-style-type: none;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -42,3 +46,20 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.main__left-col {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 20em;
+
+    background-color: #1e2939;
+    color: #fff;
+}
+.main__right-col {}
