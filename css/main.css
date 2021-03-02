@@ -35,7 +35,7 @@ body {
 
 .header__img {
     width: 200px;
-    height: 200px;
+    /* height: 200px; */
 }
 
 .header__title {
