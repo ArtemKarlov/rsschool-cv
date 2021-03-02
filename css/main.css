@@ -153,3 +153,14 @@ body {
     padding-left: 1em;
     padding-right: 1em;
 }
+
+.skill_list {
+    padding-left: 2em;
+    padding-right: 1em;
+    list-style-position: inside;
+    list-style-type: disc;
+}
+
+.main__section-content_code-example {
+    margin-bottom: 1em;
+}
