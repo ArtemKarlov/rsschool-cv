@@ -169,3 +169,58 @@ body {
 .experience__list > li:first-child {
     list-style-type: none;
 }
+
+.footer{
+    display: flex;
+    align-items: center;
+    height: 4em;
+    padding: 1em;
+    background-color: #2d2d2d;
+    color: #c9c9c9;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+}
+
+.footer__list > li:last-child {
+    margin-left: auto;
+}
+
+.footer__list-item {
+    
+}
+
+.fotter__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1.5em;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer__link-img {
+    height: 2em;
+}
+
+.footer__link-img_rsschool {
+    padding: 1px;
+    background-color: #c9c9c9;
+}
+
+.footer__link-title {
+    margin-left: .5em;
+    font-weight: bold;
+}
+
+.fotter__link:hover {
+    color: #6eb9a0;
+}
+.fotter__link:hover > .footer__link-img_rsschool {
+    background-color: #6eb9a0 ;
+}
