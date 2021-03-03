@@ -169,3 +169,7 @@ body {
 .experience__list > li:first-child {
     list-style-type: none;
 }
+
+.footer{
+    background-color: aquamarine;
+}
