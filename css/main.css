@@ -187,19 +187,19 @@ body {
     width: 100%;
 }
 
-.footer__list > li:last-child {
-    margin-left: auto;
+.footer__list > li {
+    margin-right: 1.5em;
 }
 
-.footer__list-item {
-    
+.footer__list > li:last-child {
+    margin-left: auto;
 }
 
 .fotter__link {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 1.5em;
+    width: 6em;
     text-decoration: none;
     color: inherit;
 }
